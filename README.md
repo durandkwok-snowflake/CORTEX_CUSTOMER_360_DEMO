@@ -94,20 +94,14 @@ FROM CUSTOMER_PROFILE CP
 LEFT JOIN TRANSACTION_HISTORY TH ON CP.CUSTOMER_ID = TH.CUSTOMER_ID
 LEFT JOIN PRODUCT_USAGE PU ON CP.CUSTOMER_ID = PU.CUSTOMER_ID;
 
-select * from CUSTOMER_360;
-
--- 
--- Demo for Churn Risk using LLM
--- Query to analyze churn risk at the customer level by aggregating all product information first:
---      Created a CTE to aggregate all product and transaction data at the customer level
---
---      Added TOTAL_PRODUCTS count to show product relationship depth
--- 
---      Calculated average usage frequency across all products
--- 
---      Used MAX_DAYS_SINCE_LAST_USAGE to identify the longest period of inactivity
---
---      Modified the prompt to specifically request a holistic assessment based on the complete customer relationship
+-------------------------------------------------------------------------------------------------
+Demo for Churn Risk using LLM
+Query to analyze churn risk at the customer level by aggregating all product information first
+Created a CTE to aggregate all product and transaction data at the customer level
+Added TOTAL_PRODUCTS count to show product relationship depth
+Calculated average usage frequency across all products
+Used MAX_DAYS_SINCE_LAST_USAGE to identify the longest period of inactivity**
+Modified the prompt to specifically request a holistic assessment based on the complete customer relationship
 
 WITH CUSTOMER_PRODUCT_SUMMARY AS (
     SELECT 
@@ -148,7 +142,7 @@ FROM CUSTOMER_PRODUCT_SUMMARY
 ORDER BY CUSTOMER_ID;
 
 
--- **********************************************************************
+--
 -- Demo for Sentiment and Generate Customer Feedback
 -- Create a table for customer feedback/interactions
 
