@@ -208,7 +208,8 @@ JOIN CUSTOMER_PROFILE CP ON CI.CUSTOMER_ID = CP.CUSTOMER_ID;
 -- Output Example of Sentitment Analysis of Customer's Feedback
 ![image](https://github.com/user-attachments/assets/84177b79-2eb1-49bf-b808-eac58531b237)
 
-![image](https://github.com/user-attachments/assets/37c1ec2c-9ad3-4695-9aed-579deb04208a)
+![image](https://github.com/user-attachments/assets/bd550b10-fc89-4c0b-a86d-8a39e64475ce)
+
 
 
 -- Output Example of Generated Response to the Customer
