@@ -157,11 +157,14 @@ ORDER BY CUSTOMER_ID;
 -- Output Example of High Risk Churn
 
 ![image](https://github.com/user-attachments/assets/de371b36-11d1-4a78-ab9d-c20f6763f2b6)
+![image](https://github.com/user-attachments/assets/1cabb99a-ef10-4fe7-ae01-4a159fd19c66)
 
 
 -- Output Example of Low Risk Churn
 
 ![image](https://github.com/user-attachments/assets/6e7cfc17-1800-4f73-820d-054e29301f46)
+![image](https://github.com/user-attachments/assets/432c2f10-162f-4677-bf31-21a2d22b365b)
+
 
 ### 3. Calling Cortex LLM Complete Function on Unstructured Data For Sentitment Analysis and Generate Customer Response
 
