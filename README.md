@@ -100,17 +100,17 @@ LEFT JOIN PRODUCT_USAGE PU ON CP.CUSTOMER_ID = PU.CUSTOMER_ID;
 
 Demo for Churn Risk using LLM
 
-Query to analyze churn risk at the customer level by aggregating all product information first
+-Query to analyze churn risk at the customer level by aggregating all product information first
 
-    Created a CTE to aggregate all product and transaction data at the customer level
+-Created a CTE to aggregate all product and transaction data at the customer level
     
-    Added TOTAL_PRODUCTS count to show product relationship depth
+-Added TOTAL_PRODUCTS count to show product relationship depth
     
-    Calculated average usage frequency across all products
+-Calculated average usage frequency across all products
     
-    Used MAX_DAYS_SINCE_LAST_USAGE to identify the longest period of inactivity
+-Used MAX_DAYS_SINCE_LAST_USAGE to identify the longest period of inactivity
     
-    Modified the prompt to specifically request a holistic assessment based on the complete customer relationship
+-Modified the prompt to specifically request a holistic assessment based on the complete customer relationship
 
 ```sql
 
