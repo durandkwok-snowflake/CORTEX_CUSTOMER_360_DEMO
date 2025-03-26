@@ -147,7 +147,7 @@ FROM CUSTOMER_PRODUCT_SUMMARY
 ORDER BY CUSTOMER_ID;
 ```
 
---
+
 -- Demo for Sentiment and Generate Customer Feedback
 
 -- Create a table for customer feedback/interactions
@@ -167,10 +167,7 @@ INSERT INTO CUSTOMER_INTERACTIONS VALUES
 ('INT003', 'CUST003', '2025-02-03', 'Wait times for customer service are too long');
 
 -- Use Cortex Complete for sentiment analysis and response generation
-
 -- Using proper COMPLETE function syntax
-
-
 SELECT 
     CI.CUSTOMER_ID,
     CP.NAME,
