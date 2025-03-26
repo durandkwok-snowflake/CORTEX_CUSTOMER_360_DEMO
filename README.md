@@ -1,6 +1,6 @@
 # Cortex_Customer_360_Demo
 
-### 2. Setting Up the Environment
+### 1. Setting Up the Environment
 ```sql
 create database if not exists customer_360;
 use database customer_360;
@@ -15,7 +15,7 @@ use warehouse investment_cortex_wh;
 --ALTER WAREHOUSE investment_cortex_wh SET WAREHOUSE_SIZE = LARGE;
 --ALTER WAREHOUSE investment_cortex_wh SET WAREHOUSE_SIZE = XLARGE;
 
--- Step 1: Create Tables
+-- Step 1a: Create Tables
 CREATE OR REPLACE TABLE CUSTOMER_PROFILE (
     CUSTOMER_ID STRING,
     NAME STRING,
@@ -44,7 +44,7 @@ CREATE OR REPLACE TABLE PRODUCT_USAGE (
 
 
 
--- Step 2: Insert Sample Data
+-- Step 1b: Insert Sample Data
 --       CUSTOMER_ID ,NAME ,AGE ,INCOME ,NET_WORTH ,ACCOUNT_TYPE ,TENURE_YEARS 
 
 INSERT INTO CUSTOMER_PROFILE VALUES
@@ -78,7 +78,7 @@ INSERT INTO PRODUCT_USAGE VALUES
 ('CUST005', 'Investment Account', 8.0, CURRENT_DATE()-1);
 
 
--- Step 3: Prepare Views for Analysis
+-- Step 1c: Prepare Views for Analysis
 CREATE OR REPLACE VIEW CUSTOMER_360 AS
 SELECT 
     CP.CUSTOMER_ID, 
@@ -98,7 +98,7 @@ LEFT JOIN PRODUCT_USAGE PU ON CP.CUSTOMER_ID = PU.CUSTOMER_ID;
 
 ```
 
-Demo for Churn Risk using Cortex LLM Complete Function:
+### 2. Calling Cortex LLM Complete Function for Churn Risk:
 
 -Query to analyze churn risk at the customer level by aggregating all product information first
 
