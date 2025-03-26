@@ -206,6 +206,6 @@ JOIN CUSTOMER_PROFILE CP ON CI.CUSTOMER_ID = CP.CUSTOMER_ID;
 ![image](https://github.com/user-attachments/assets/84177b79-2eb1-49bf-b808-eac58531b237)
 
 
--- Output Example of Generated Feedback to the Customer
+-- Output Example of Generated Response to the Customer
 ![image](https://github.com/user-attachments/assets/d6718adf-ce7c-4a68-9b30-04e645b49d0c)
 
