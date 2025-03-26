@@ -97,7 +97,7 @@ LEFT JOIN TRANSACTION_HISTORY TH ON CP.CUSTOMER_ID = TH.CUSTOMER_ID
 LEFT JOIN PRODUCT_USAGE PU ON CP.CUSTOMER_ID = PU.CUSTOMER_ID;
 
 ```
--------------------------------------------------------------------------------------------------
+
 Demo for Churn Risk using LLM
 
 Query to analyze churn risk at the customer level by aggregating all product information first
