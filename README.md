@@ -154,11 +154,12 @@ ORDER BY CUSTOMER_ID;
 ```
 
 
--- Output
+-- Output Example of High Risk Churn
 ![image](https://github.com/user-attachments/assets/de371b36-11d1-4a78-ab9d-c20f6763f2b6)
 
 
-
+-- Output Example of Low Risk Churn
+![image](https://github.com/user-attachments/assets/6e7cfc17-1800-4f73-820d-054e29301f46)
 
 
 -- Demo for Sentiment and Generate Customer Feedback
