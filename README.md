@@ -202,3 +202,7 @@ FROM CUSTOMER_INTERACTIONS CI
 JOIN CUSTOMER_PROFILE CP ON CI.CUSTOMER_ID = CP.CUSTOMER_ID;
 
 ```
+
+-- Output
+![image](https://github.com/user-attachments/assets/d6718adf-ce7c-4a68-9b30-04e645b49d0c)
+
