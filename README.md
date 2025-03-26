@@ -98,7 +98,7 @@ LEFT JOIN PRODUCT_USAGE PU ON CP.CUSTOMER_ID = PU.CUSTOMER_ID;
 
 ```
 
-Demo for Churn Risk using LLM
+Demo for Churn Risk using Cortex LLM Complete Function:
 
 -Query to analyze churn risk at the customer level by aggregating all product information first
 
