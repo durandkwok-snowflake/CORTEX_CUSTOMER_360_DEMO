@@ -150,9 +150,8 @@ ORDER BY CUSTOMER_ID;
 
 -- Demo for Sentiment and Generate Customer Feedback
 
--- Create a table for customer feedback/interactions
-
 ```sql
+-- Create a table for customer feedback/interactions
 CREATE OR REPLACE TABLE CUSTOMER_INTERACTIONS (
     INTERACTION_ID STRING,
     CUSTOMER_ID STRING,
