@@ -154,6 +154,13 @@ ORDER BY CUSTOMER_ID;
 ```
 
 
+-- Output
+![image](https://github.com/user-attachments/assets/de371b36-11d1-4a78-ab9d-c20f6763f2b6)
+
+
+
+
+
 -- Demo for Sentiment and Generate Customer Feedback
 
 ```sql
