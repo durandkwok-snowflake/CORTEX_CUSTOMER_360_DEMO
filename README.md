@@ -96,8 +96,7 @@ LEFT JOIN PRODUCT_USAGE PU ON CP.CUSTOMER_ID = PU.CUSTOMER_ID;
 
 select * from CUSTOMER_360;
 
-
--- **************************************************************************************************************
+-- 
 -- Demo for Churn Risk using LLM
 -- Query to analyze churn risk at the customer level by aggregating all product information first:
 --      Created a CTE to aggregate all product and transaction data at the customer level
