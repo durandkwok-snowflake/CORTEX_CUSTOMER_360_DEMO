@@ -163,7 +163,7 @@ ORDER BY CUSTOMER_ID;
 
 ![image](https://github.com/user-attachments/assets/6e7cfc17-1800-4f73-820d-054e29301f46)
 
-### 3. Calling Cortex LLM Complete Function on Unstructure Data For Sentitment and Generate Customer Feedback
+### 3. Calling Cortex LLM Complete Function on Unstructure Data For Sentitment Analysis and Generate Customer Feedback
 
 ```sql
 -- Create a table for customer feedback/interactions
