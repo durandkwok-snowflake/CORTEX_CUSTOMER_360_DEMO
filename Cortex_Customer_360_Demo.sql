@@ -3,13 +3,11 @@ use database customer_360;
 use schema public;
 
 
-CREATE OR REPLACE WAREHOUSE investment_cortex_wh WITH WAREHOUSE_SIZE='X-LARGE'
+CREATE OR REPLACE WAREHOUSE investment_cortex_wh WITH WAREHOUSE_SIZE='MEDIUM'
 AUTO_RESUME = TRUE
 AUTO_SUSPEND = 360;
 
 use warehouse investment_cortex_wh;
---ALTER WAREHOUSE investment_cortex_wh SET WAREHOUSE_SIZE = LARGE;
---ALTER WAREHOUSE investment_cortex_wh SET WAREHOUSE_SIZE = XLARGE;
 
 -- Step 1: Create Tables
 CREATE OR REPLACE TABLE CUSTOMER_PROFILE (
