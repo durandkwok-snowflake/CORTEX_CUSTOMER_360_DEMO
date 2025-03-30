@@ -7,7 +7,7 @@ use database customer_360;
 use schema public;
 
 
-CREATE OR REPLACE WAREHOUSE investment_cortex_wh WITH WAREHOUSE_SIZE='LARGE'
+CREATE OR REPLACE WAREHOUSE investment_cortex_wh WITH WAREHOUSE_SIZE='MEDIUM'
 AUTO_RESUME = TRUE
 AUTO_SUSPEND = 360;
 
